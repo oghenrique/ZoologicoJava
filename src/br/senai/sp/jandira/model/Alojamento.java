@@ -14,4 +14,12 @@ public class Alojamento {
     public void adicionarAveAlojamento(Ave ave){
         alojamentoAve.add(ave);
     }
+
+    public void adicionarMamiferoAlojamento(Mamifero mamifero){
+        alojamentoMamimefero.add(mamifero);
+    }
+    public void adicionarFelinoAlojamento(Felino felino){
+        alojamentoFelino.add(felino);
+    }
+
 }
